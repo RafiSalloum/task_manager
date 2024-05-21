@@ -4,13 +4,22 @@ A new Flutter project.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+This project is a Task Manager using https://www.dummyjson.com
 
-A few resources to get you started if this is your first Flutter project:
+# Features below:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- Login securely to access the app
+- Get existed Tasks and show them in a ListView.
+- Add new tasks
+- Delete tasks by long press
+- Update task (Completed) status
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+# Pattern:
+- BLoC Pattern (Blocs - Data - Screens)
+
+# Used Packages:
+- http for networking and API services
+- flutter_bloc for state management
+- shared_preferences for local storage
+- connectivity_plus to check internet connection
+- mockito for unit test
